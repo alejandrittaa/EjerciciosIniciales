@@ -248,6 +248,9 @@ GameObject:
   - component: {fileID: 2124788603}
   - component: {fileID: 2124788604}
   - component: {fileID: 2124788605}
+  - component: {fileID: 2124788606}
+  - component: {fileID: 2124788607}
+  - component: {fileID: 2124788608}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -453,12 +456,52 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124788592}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 336e1742eb5aecb4daf72ef35ed2ea94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   exp: 5
+--- !u!114 &2124788606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124788592}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04fb5f9b7b6b974a9f18dd9e989f7ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radiocir: 15
+--- !u!114 &2124788607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124788592}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311b1c55df4b46a438008e04ca92f113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadkm: 1
+--- !u!114 &2124788608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124788592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cbc8f32e26343419473a44cb6da2a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basetri: 2
+  alturatri: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
