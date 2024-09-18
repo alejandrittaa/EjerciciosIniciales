@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Ejercicio4_2 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    string nombrecompleto;
     void Start()
     {
-        
+        ConstruirNombre("Alejandra", " Cortés", " Reyero");
+        Debug.Log(nombrecompleto);
     }
 
-    // Update is called once per frame
-    void Update()
+    string ConstruirNombre(string nombre, string ap1, string ap2)
     {
-        
+        nombrecompleto = nombre + ap1 + ap2;
+        return nombrecompleto;
     }
 }
