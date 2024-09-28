@@ -264,6 +264,7 @@ GameObject:
   - component: {fileID: 2124788619}
   - component: {fileID: 2124788620}
   - component: {fileID: 2124788621}
+  - component: {fileID: 2124788622}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -674,7 +675,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124788592}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52ad946b84b06e84ca9a507d7977c7dd, type: 3}
   m_Name: 
@@ -682,6 +683,21 @@ MonoBehaviour:
   vel1: 13
   vel2: 5
   vel3: 27
+--- !u!114 &2124788622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124788592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1fd9f0481df8548958e92ea6c0c7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hora: 24
+  Minutos: 59
+  Segundos: 59
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
