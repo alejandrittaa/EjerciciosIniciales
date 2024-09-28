@@ -266,6 +266,9 @@ GameObject:
   - component: {fileID: 2124788621}
   - component: {fileID: 2124788622}
   - component: {fileID: 2124788623}
+  - component: {fileID: 2124788624}
+  - component: {fileID: 2124788625}
+  - component: {fileID: 2124788626}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -553,6 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 071d52113dd8c564ea63c0e4e2fe2e15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numero: 100
 --- !u!114 &2124788612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -706,12 +710,49 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124788592}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20f1f9e2d2f73b3419a7a027e16eff2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tipo: 3
+--- !u!114 &2124788624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124788592}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb185333e4ed7e4998b836ded78038e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  temperatura: 25
+--- !u!114 &2124788625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124788592}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f39fbac50422248b143b2855dbd021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2124788626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124788592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae5fc298aa8bcc4f8e147b96ad9e0c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
