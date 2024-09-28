@@ -2,18 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejericio7_3 : MonoBehaviour
+public class Ejercicio7_4 : MonoBehaviour
 {
-    int numero = 100;
+    // Start is called before the first frame update
     void Start()
     {
-        
-        while(numero > 0)
+        for (int i = 100; i > 0; i--)
         {
-            Debug.Log(numero);
-            numero--;
+            Debug.Log(i);
         }
-
     }
 
     // Update is called once per frame
