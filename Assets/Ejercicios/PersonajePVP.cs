@@ -20,17 +20,17 @@ public class PersonajePVP : MonoBehaviour
         
     }
 
-    private void RellenarStasts()
+    public void RellenarStats(float atq, float vel, float hp)
     {
         
     }
 
-    private void MarcarObjetivo(float atq, float vel, float hp)
+    public void MarcarObjetivo(PersonajePVP objetivo)
     {
 
     }
     
-    private void Atacar(PersonajePVP objetivo)
+    public void Atacar()
     {
 
     }
