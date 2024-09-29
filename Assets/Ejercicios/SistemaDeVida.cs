@@ -19,6 +19,7 @@ public class SistemaDeVida : MonoBehaviour
     {
         
     }
+    //no entiendo lo de devolver un -1, no se a que te refieres
 
     /*float RecibirCura(float cantidad)
     { 
