@@ -40,4 +40,10 @@ public class GameManager : MonoBehaviour
         Debug.Log(mario.CalcularNivel());
         ejecutado = true;
     }
+
+    //no entiendo nada más allá del ejercicio 8_4
+    void FinDeTurno()
+    {
+        
+    }
 }

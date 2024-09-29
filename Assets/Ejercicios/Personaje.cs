@@ -13,6 +13,7 @@ public class Personaje : MonoBehaviour
     [SerializeField] KeyCode Cura;
     [SerializeField] KeyCode HacerDanho;
     [SerializeField] KeyCode Recarga;
+    private bool MiTurno;
 
     public string Nombre { get => nombre; set => nombre = value; }
     public int Experiencia { get => experiencia; set => experiencia = value; }
