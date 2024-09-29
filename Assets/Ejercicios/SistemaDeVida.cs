@@ -11,7 +11,7 @@ public class SistemaDeVida : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class SistemaDeVida : MonoBehaviour
         
     }
 
-    float RecibirCura(float cantidad)
+    /*float RecibirCura(float cantidad)
     { 
         if(cantidad > 0)
         {
@@ -41,8 +41,9 @@ public class SistemaDeVida : MonoBehaviour
         }
         else
         {
-            Debug.Log("No puede recibir una cantidad de daño negativa");
+            Debug.Log("No puede recibir una cantidad de danho negativa");
         }
         
     }
+    */
 }
