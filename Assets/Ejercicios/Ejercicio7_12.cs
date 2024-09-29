@@ -5,19 +5,19 @@ using UnityEngine;
 public class Ejercicio7_12 : MonoBehaviour
 {
 
-    //NO ENTIENDO PORQUE NO FUNCIONA, Y PORQUE NO SALEN LAS VARIABLES SERIALIZADAS EN UNITY :(
+    //NO ENTIENDO PORQUE NO FUNCIONA, Y PORQUE NO SALEN LAS VARIABLES SERIALIZADAS EN UNITY :(, solo salen si comento el código osea que supongo que hay algo mal, pero no logro ver que es
 
     [SerializeField] int num1;
     [SerializeField] int num2;
 
     // Start is called before the first frame update
-    void Start()
+    /*void Start()
     {
         int resultado = SumarTodosLosNumeros(num1, num2);
         Debug.Log(resultado);
     }
 
-    private int SumarTodosLosNumeros(int numero1,int numero2)
+    int SumarTodosLosNumeros(int numero1,int numero2)
     {
         int suma = 0;
         if (numero1 > numero2)
@@ -44,5 +44,5 @@ public class Ejercicio7_12 : MonoBehaviour
             Debug.Log("Introduce dos numero distintos");
         }
 
-    }
+    }*/
 }
