@@ -7,6 +7,9 @@ public class Personaje : MonoBehaviour
     private string nombre = "";
     private int vida;
     private int experiencia;
+    [SerializeField] Personaje enemigo;
+    [SerializeField] SistemaDeVida MiSistemaDeVidas;
+    [SerializeField] Arma MiArma;
 
     public string Nombre { get => nombre; set => nombre = value; }
     public int Experiencia { get => experiencia; set => experiencia = value; }
