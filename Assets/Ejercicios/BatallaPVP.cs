@@ -35,11 +35,11 @@ public class BatallaPVP : MonoBehaviour
 
     void CrearEmparejamiento()
     {
-
+        //no se hacer lo de que elija combatientes al azar, no sé si disteis esto justo el jueves que yo no estaba :(
     }
 
     void GenerarCombate()
     {
-
+        //sin lo anterior no se hacer esto
     }
 }
