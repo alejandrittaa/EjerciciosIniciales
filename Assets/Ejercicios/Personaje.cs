@@ -7,6 +7,11 @@ public class Personaje : MonoBehaviour
     private string nombre = "";
     private int vida;
     private int experiencia;
+
+    public string Nombre { get => nombre; set => nombre = value; }
+    public int Experiencia { get => experiencia; set => experiencia = value; }
+    public int Vida { get => vida; set => vida = value; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +24,7 @@ public class Personaje : MonoBehaviour
         
     }
 
-    float CalcularNivel()
+    public float CalcularNivel()
     {
         int nivel = experiencia / 1000;
         return nivel;
